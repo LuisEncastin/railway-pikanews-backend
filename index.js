@@ -10,7 +10,8 @@ app.use(bodyParse.urlencoded({ limit: '30mb', extended: true }));
 app.use(cors());
 
 // Connection URI
-const uri = 'mongodb+srv://luisencastin:Rayuela1@cluster0.whup5ue.mongodb.net/?retryWrites=true&w=majority';
+// const uri = 'mongodb+srv://luisencastin:Rayuela1@cluster0.whup5ue.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'mongodb://mongo:Rc5NGcCl3ukneTx6at0a@containers-us-west-122.railway.app:7785';
 const PORT = process.env.PORT || 3000;
 
 //Connection to database
