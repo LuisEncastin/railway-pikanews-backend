@@ -1,11 +1,19 @@
 {
-  "name": "APIBackend",
+  "name": "apiackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "packageManager": "yarn@3.3.1",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "nodemon ./index.js"
   },
   "dependencies": {
     "body-parser": "^1.20.1",
-    "express": "^4.18.2"
-  }
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  },
+  "license": "MIT"
 }
